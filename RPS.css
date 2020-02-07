@@ -23,7 +23,7 @@ section {
     padding: 10px;
     font-size: 25px;
 }
-.into {
+.intro {
     color: rgb(224, 224, 224);
     height: 50vh;
     display: flex;
@@ -32,10 +32,10 @@ section {
     justify-content: space-around;
     transition: opacity 0.5s ease;
 }
-.into h1 {
+.intro h1 {
     font-size: 50px;
 }
-.into button,
+.intro button,
 .match button {
     width: 150px;
     height: 50px;
@@ -71,8 +71,8 @@ section {
 .options button {
     margin: 10px;
 }
-.computer-hand{
-    transform:scaleX(-1);
+.player-hand {
+    transform: rotateY(180deg);
 }
 
 div.fadeOut {
